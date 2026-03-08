@@ -1,0 +1,35 @@
+body {
+    background-color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.question-container {
+    text-align: center;
+    background: rgb(235, 229, 229);
+    padding: 3rem;
+    border-radius: 20px;
+}
+
+.local-gif {
+    width: 200px;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: none;
+    border-radius: 50px;
+    background-color: #f01d98;
+    color: rgb(250, 250, 250);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#noBtn {
+    position: absolute; /* Esto permite que el botón se mueva por toda la pantalla */
+}
