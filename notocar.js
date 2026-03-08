@@ -12,5 +12,6 @@ noBtn.addEventListener('mouseover', () => {
 
 // Acción al presionar "Yes"
 yesBtn.addEventListener('click', () => {
-    alert('¡Sabía que dirías que sí! Preparate amooor ❤️');
+    alert('¡Sabía que dirías que sí! Ya pedimos');
+
 });
